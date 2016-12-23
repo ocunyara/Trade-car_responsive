@@ -3167,7 +3167,20 @@ footer {
   .bgt_application {
     width: 230px;
     font-size: 14px;
-    padding-top: 8px; } }
+    padding-top: 8px; }
+  .tabs2 .list_parts.tyres li .right_part {
+    width: 69%; }
+  .tabs2 .list_parts.tyres li .for_img {
+    width: 29%; }
+  .parst_action {
+    width: 67%;
+    float: left; }
+  .catalog_car .name_car {
+    font-size: 20px; }
+  .main_descriptin_car p {
+    font-size: 14px; }
+  .title_post {
+    font-size: 14px; } }
 
 @media screen and (max-width: 767px) {
   .registration,
@@ -3288,7 +3301,23 @@ footer {
   .right_slider form, .parts_sidebar form, .parts_sidebar form, .parts_sidebar form {
     padding: 15px 15px 15px 15px; }
   .form_registration {
-    width: 500px; } }
+    width: 500px; }
+  .tabs2 .list_parts.tyres li .right_part {
+    width: 69%; }
+  .tabs2 .list_parts.tyres li .for_img {
+    width: 29%; }
+  .parst_action {
+    width: 100%;
+    float: left; }
+  .parts_sidebar .baner_saidbar {
+    display: none; }
+  .catalog_car .name_car {
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    padding: 0; }
+  .tabs2 .list_parts_text li a {
+    font-size: 15px; } }
 
 @media screen and (max-width: 540px) {
   .registration2 {
@@ -3688,7 +3717,34 @@ footer {
   .tabs2 .list_parts_text.tyres li .third_part .text_buy {
     font-size: 14px; }
   .tabs2 .list_parts_text li {
-    padding: 15px 15px 15px 15px; } }
+    padding: 15px 15px 15px 15px; }
+  .tabs2 .list_parts.tyres li .for_img img {
+    width: 100%; }
+  .tabs2 .list_parts .status_label {
+    display: none; }
+  .tabs2 .list_parts.tyres .block_text .text_buy {
+    width: 100%;
+    float: left;
+    text-align: left; }
+  .title_post {
+    font-size: 15px; }
+  .tabs_container .region_block input {
+    width: 100%; }
+  .tabs_container .jqselect {
+    width: 100%; }
+  body .tabs_container .adress {
+    width: 100%; }
+  .decription_car textarea {
+    width: 100%; }
+  .tabs_container .compani input[type="email"] {
+    width: 100%; }
+  .tabs_btn .btn_radio a {
+    padding: 10px 5px;
+    font-size: 14px; }
+  .region_btns {
+    width: 100%; }
+  .region_btns .region_btn1 {
+    font-size: 14px; } }
 
 @media only screen and (max-width: 991px) {
   nav {
