@@ -1,0 +1,103 @@
+//    Footer
+
+footer {
+    border-top: 2px solid $color;
+    box-sizing: border-box;
+    padding-top: 37px;
+    position: relative;
+    ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .top_list {
+        font-size: 18px;
+        font-family: $semibold;
+        color: #000;
+        padding-bottom: 12px;
+    }
+    a {
+        font-family: $regular;
+        font-size: 15.6px;
+        color: #000;
+        line-height: 27px;
+        text-decoration: none;
+        &:hover {
+            color: #219ce3;
+            text-decoration: underline;
+        }
+    }
+    .list2 {
+        margin-left: 50px;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+.footer_title {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    h4 {
+        color: #000;
+        padding-bottom: 20px;
+        margin-top: -9px;
+        margin-bottom: 0;
+        font-size: 34px;
+        font-family: $light;
+    }
+    p {
+        font-family: $regular;
+        font-size: 15px;
+        color: #000;
+        line-height: 26px;
+        margin: 0;
+        span {
+            font-family: $semibold;
+            font-size: 17px;
+        }
+        .mail {
+            text-decoration: underline;
+        }
+    }
+    img {
+        margin-top: 53px;
+    }
+    .pravo {
+        position: absolute;
+        margin-top: 2px;
+        font-family: segoeui;
+        font-size: 16px;
+        color: #7b7b7b;
+        width: 349px;
+        left: -132px;
+        margin-bottom: 40px;
+    }
+}
+.footer_mobi { 
+    display: none; 
+    text-align: center;
+    h4 {
+        font-family: $semibold;
+        font-size: 29px;
+        color: #000;
+        margin-bottom: 40px;
+    }
+    p {
+        font-family: segoeui;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    a {
+        font-family: $regular;
+        font-size: 18px;
+        color: #7b7b7b;
+        text-decoration: underline;
+        line-height: 30px;
+    }
+    .mobi_logo {
+        display: block;
+        margin: 20px 0;
+    }
+}

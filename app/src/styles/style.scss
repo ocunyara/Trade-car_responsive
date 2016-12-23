@@ -1,0 +1,76 @@
+@import 'normalize';
+@import 'font';
+//    Body
+$regular: segoeui;
+$semibold: seguisb;
+$italik: segoeuii;
+$bolditalik: seguisbi;
+$bold: segoeuib;
+$light: segoeuil;
+$bolditalik: seguisbi;
+$bleck: seguibl;
+$color: #cfd8dc;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.wrapp_slider {
+    display: none;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.main_descriptin_car .readall {
+	padding-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    color: #219ce3;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+}
+.hidtory {
+	display: none;
+}
+.tudey_car2,
+.delivery_car2 {
+	display: none;
+}
+
+@import 'header';
+@import 'right_sidebar_car';
+@import 'right_sidebar';
+@import 'main_page';
+@import 'parts';
+@import 'car_tile';
+@import 'action_car';
+@import '404';
+@import 'registration';
+@import 'footer';
+@import 'media';
+

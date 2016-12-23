@@ -1,0 +1,407 @@
+//    right_slider_car
+
+.right_slider_car {
+    width: 292px;
+    float: right;
+    text-align: center;
+    &.tyres {
+        .top_part {
+            margin: 15px auto 10px auto;
+            width: 85%;
+            .address_marker {
+                float: left;
+                margin-left: 25px;
+            }
+            .favorite_label {
+                float: right;
+                position: relative;
+                left: inherit;
+                top: inherit;
+            }
+        }
+        .tyres_button {
+            background: #fff;
+        }
+        .for_img {
+            width: 260px;
+            height: 150px;
+            position: relative;
+            margin-bottom: 15px;
+            img {
+                position: absolute;
+                max-width: 260px;
+                max-height: 150px;
+                width: auto;
+                height: auto;
+                display: block;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+    > p {
+        margin-right: 100px;
+        margin-bottom: 25px;
+        font-size: 28px;
+        font-family: $light;
+        color: #7b7b7b;
+    }
+    @extend .content_tab1;
+    li {
+        text-align: left;
+        margin: 0 auto 18px;
+        .btn_claim {
+            background: #ffd600;
+        }
+    }
+}
+
+.baner_saidbar {
+    margin-top: 47px;
+    background: none;
+    margin-bottom: 50px;
+}
+
+.title_post {
+    display: block;
+    font-family: segoeuib;
+    font-size: 18.7px;
+    margin: -3px 20px -1px 20px;
+    color: #000;
+    text-decoration: underline;
+    font-style: italic;
+    &:hover {
+        color: #219ce3;
+    }
+}
+
+.address_marker {
+    position: relative;
+    font-size: 15.4px;
+    font-family: segoeui;
+    color: #fff;
+    padding: 0 10px 3px 10px;
+    background: rgba(207, 216, 220, 0.8);
+    border-radius: 13px;
+    &:after {
+        content: '';
+        width: 15px;
+        height: 21px;
+        display: block;
+        position: absolute;
+        top: 2px;
+        left: -24px;
+        background: url(../image/icon_marker.png);
+    }
+}
+
+.favorite_label {
+    position: absolute;
+    background: url("../image/star2.png") no-repeat center;
+    width: 18px;
+    height: 18px;
+    left: 20px;
+    top: 33%;
+    &.active {
+        background-image: url("../image/star.png");
+    }
+}
+
+.title_form {
+    margin-top: 50px;
+    h2 {
+        font-size: 40px;
+        font-family: segoeuil;
+        color: #7b7b7b;
+    }
+}
+
+.tabs_btn {
+    margin: 30px 0 0 0;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #cfd8dc;
+    .btn_radio {
+        font-family: segoeui;
+        border-radius: 6px;
+        border: 3px solid #cfd8dc;
+        float: left;
+        a {
+             transition: all 0.2s ease-out;
+            padding: 10px 35px;
+            font-size: 18px;
+            color: #000;
+            display: block;
+            float: left;
+            text-decoration: none;
+            &:hover {
+                background: #cfd8dc;
+            }
+            &.current {
+                background: #cfd8dc;
+            }
+        }
+    }
+    .content_tab {
+        float: left;
+        width: 100%;
+    }
+}
+
+.tabs_container {
+    font-family: segoeui;
+    margin-top: 50px;
+    font-size: 26px;
+    color: #7b7b7b;
+    input[type="text"] {
+        padding-left: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 48px;
+        border: 1px solid #cfd8dc;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .compani {
+      a {
+        font-family: $regular;
+        font-size: 18px;
+        color: #000;
+        text-decoration: underline;
+        margin: 0 20px 0px 17px;
+        &:hover,
+        &:active,
+        &:visited {
+          font-family: $semibold;
+          text-decoration: none;
+          color: #219ce3;
+        }
+      }
+      input[type='tel'] {
+        padding-left: 10px;
+        box-sizing: border-box;
+        width: 205px;
+        height: 48px;
+        border: 1px solid #cfd8dc;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        font-size: 18px;
+      }
+      input[type='submit'] {
+        width: 180px;
+        height: 48px;
+        background: #cfd8dd;
+        color: #000;
+        cursor: pointer;
+        font-family: $regular;
+        font-size: 18px;
+        border: 0;
+        border-radius: 6px;
+      }
+      input[type="email"] {
+        padding-left: 10px;
+        box-sizing: border-box;
+        width: 395px;
+        height: 48px;
+        border: 1px solid #cfd8dc;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        font-size: 18px;
+      }
+    }
+    label {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: block;
+        font-size: 28px;
+        font-family: $light;
+        color: #7b7b7b;
+    }
+    b {
+        color: #ff0000;
+    }
+    .jqselect {
+        width: 260px;
+        font-family: segoeuib;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .parametric {
+        margin-bottom: 45px;
+        .jqselect {
+            margin-bottom: 15px;
+        }
+    }
+    .region_block {
+        .jqselect {
+            float: left;
+        }
+        input {
+            float: left;
+            width: 580px;
+        }
+    }
+    .file_block {
+        .jq-file {
+            display: none !important;
+        }
+        .file {
+            cursor: pointer;
+            font-style: italic;
+            padding: 55px 0;
+            text-align: center;
+            border: 1px dashed #000;
+            font-size: 18px;
+            border-radius: 5px;
+            span {
+                font-weight: bold;
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+    }
+    .jq-selectbox__select {
+      height: 45px !important;
+    }
+    .jq-selectbox__select-text {
+      padding-top: 6px !important;
+      font-size: 16px;
+      color: #7b7b7b;
+      font-family: $regular;
+    }
+    .car_har_select {
+      margin-top: 10px !important;
+    }
+    .jq-selectbox__trigger {
+      top: 6px !important;
+    }
+    .car_har {
+      margin-bottom: 0;
+      margin-right: 13px;
+      width: 120px !important;
+    }
+    .car_har_title {
+      margin-bottom: 0;
+    }
+    .adding {
+      text-align: center;
+      margin-bottom: 85px;
+      .btn_add {
+        padding-top: 12px;
+        display: inline-block;
+        width: 325px;
+        height: 48px;
+        background: #ffd600;
+        border-radius: 6px;
+        color: #000;
+        font-family: $regular;
+        font-size: 18px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        text-decoration: none;
+      }
+      .add_off {
+        color: #000;
+        font-family: $regular;
+        font-size: 18px;
+        text-decoration: underline;
+      }
+    }
+}
+.region_btns {
+    height: 44px;
+    width: 355px;
+    box-sizing: border-box;
+    border: 3px solid $color;
+    border-radius: 6px;
+    a {
+        transition: all 0.2s ease-out;
+        font-size: 16px;
+        color: #000;
+        font-family: $regular;
+        box-sizing: border-box;
+        display: inline-block;
+        text-decoration: none;
+        &:hover {
+            background: $color;
+        }
+    }
+    .region_btn1 {
+        float: left;
+        width: 57%;
+        font-size: 16px;
+        padding: 7px 0px 12px 25px;
+    }
+    .region_btn2 {
+        width: 43.005%;
+        padding: 9px 0px 11px 35px;
+        font-size: 16px;
+        position: relative;
+        top: -4px;
+    }
+    .active {
+        background: $color;
+    }
+}
+.region {
+  p {
+    padding: 15px 0;
+    color: #000;
+    font-family: $italik;
+    font-size: 18px;
+  }
+  label {
+    font-size: 16px;
+    color: #000;
+    font-family: $regular;
+    display: inline-block;
+  }
+  input[type="radio"] {
+    float: left;
+  }
+  .car_har4 { margin-bottom: 10px !important; }
+}
+.tabs_container {
+  li {
+    display: block;
+    margin: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+  }
+}
+.decription_car {
+  textarea {
+    padding: 20px;
+    height: 137px;
+    width: 72.32%;
+    border: 1px dotted #7b7b7b;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #000;
+    font-family: $regular;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+  }
+}
+body .tabs_container     .adress {
+    width: 535px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: $regular;
+    padding-left: 15px;
+}
+.add_else {
+  font-size: 16px;
+  color: #000;
+  font-family: $semibold;
+  text-decoration: underline;
+}
+.car_har_title2 {
+  margin-bottom: 10px !important;
+}

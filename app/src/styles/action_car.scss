@@ -1,0 +1,517 @@
+//    Action_car
+
+.action_car {
+    width: 72.3214%;
+    float: left;
+}
+
+.action_car {
+    &.parts {
+        .post {
+            box-shadow: 0 2px 17px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            padding: 20px 25px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            .text_buy {
+                float: right;
+                font-family: segoeui;
+                font-size: 18px;
+                color: #000;
+            }
+            .text_date {
+                color: #262626;
+                font-family: segoeui;
+                font-size: 15px;
+                float: left;
+                span {
+                    font-family: segoeuii;
+                    color: #7b7b7b;
+                }
+            }
+            .title_post {
+                float: left;
+                margin: 0 0 15px;
+            }
+            .status_label {
+                float: right;
+                font-size: 15px;
+                font-family: segoeui;
+            }
+        }
+        .main_descriptin_car {
+            p {
+                color: #333;
+            }
+        }
+        .left_block {
+            width: 470px;
+            float: left;
+            margin-right: 25px;
+            img {
+                width: 100%;
+            }
+        }
+        .har_car {
+            width: 310px;
+            float: left;
+            .phone_car {
+                p {
+                    margin-bottom: 20px;
+                }
+                a {
+                    display: block;
+                    text-align: center;
+                    transition: all 0.2s ease-out;
+                    width: 100%;
+                    height: 50px;
+                    line-height: 45px;
+                    color: #000;
+                    font-family: segoeui;
+                    font-size: 18px;
+                    box-sizing: border-box;
+                    border: 3px solid #ffd600;
+                    border-radius: 6px;
+                    text-decoration: none;
+                    background: #ffd600;
+                }
+            }
+            .car_adres {
+                margin-right: 0;
+            }
+            .text_buy {
+                margin: 10px 0 15px;
+                font-size: 28px;
+                color: #000;
+                font-family: segoeuib;
+            }
+        }
+        .other_car_men {
+            font-family: segoeui;
+            li {
+                width: 32%;
+                margin-right: 1%;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+                .title_part {
+                    padding: 20px 20px 0 20px;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    .text_buy {
+                        float: left;
+                        font-size: 18px;
+                    }
+                    .status_label {
+                        float: right;
+                        margin-right: 10px;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+                .text_info {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    &.tyres {
+        .info_content {
+            width: 100%;
+            float: left;
+            .phone_car {
+                margin-top: 20px;
+                font-family: seguisb;
+                font-size: 18px;
+                color: #000;
+                p {
+                    float: left;
+                    margin-right: 15px;
+                }
+                a {
+                    float: left;
+                    color: #219ce3;
+                    text-decoration: underline;
+                }
+            }
+            .car_favorit {
+                margin-top: 20px;
+                font-size: 16px;
+                font-family: segoeui;
+                color: #7b7b7b;
+                p {
+                    margin-bottom: 5px;
+                }
+                span {
+                    text-decoration: underline;
+                    font-family: seguisb;
+                    color: #000;
+                }
+            }
+        }
+    }
+    ul.tyres_post {
+        .text_hag {
+            float: right;
+            color: #7b7b7b;
+            font-size: 15px;
+            font-family: segoeui;
+        }
+        .btn_call {
+            text-align: center;
+            transition: all 0.2s ease-out;
+            display: block;
+            height: 38px;
+            color: #000;
+            font-family: segoeui;
+            font-size: 16px;
+            box-sizing: border-box;
+            border: 3px solid #ffd600;
+            border-radius: 6px;
+            text-decoration: none;
+            margin: 0 20px 15px 20px;
+            line-height: 30px;
+            font-style: normal;
+        }
+        .top_part {
+            margin: 15px auto 10px auto;
+            width: 85%;
+            .address_marker {
+                margin-left: 25px;
+                float: left;
+            }
+            .favorite_label {
+                float: right;
+                position: relative;
+                top: inherit;
+                left: inherit;
+            }
+        }
+        .for_img {
+            width: 260px;
+            height: 160px;
+            position: relative;
+            margin-bottom: 15px;
+            img {
+                width: auto;
+                height: auto;
+                max-width: 260px;
+                max-height: 160px;
+                display: block;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+.catalog_car {
+    float: left;
+    border-top: 2px solid #cfd8dc;
+    .name_car {
+        font-size: 28px;
+        color: #000;
+        font-family: $bolditalik;
+        padding: 25px 0;
+    }
+}
+
+.slider_car {
+    float: left;
+    width: 513px;
+    margin-right: 20px;
+}
+
+.slider-for {
+    float: left;
+    width: 513px;
+    height: 350px;
+    margin-bottom: 35px;
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .slick-dots {
+        li {
+            float: left;
+            margin: 0 3px;
+            width: 42px;
+            height: 5px;
+            position: relative;
+            top: -25px;
+            left: 29%;
+            background: #fefefe;
+            button {
+                opacity: 0;
+            }
+        }
+        .slick-active {
+            background: #ffd600;
+        }
+    }
+    .slick-active {
+        &:focus {
+            outline: 0;
+        }
+    }
+}
+
+.slider-nav {
+    float: left;
+    width: 513px;
+    margin-bottom: 20px;
+    div {
+        margin-right: 7.5px;
+        border-radius: 6px;
+    }
+    img {
+        border-radius: 6px;
+        width: 100%;
+    }
+    .right_car {
+        margin-right: 0;
+    }
+    .slick-active {
+        background: 0;
+        &:focus,
+        &:active {
+            outline: 0;
+            border-radius: 6px;
+            box-sizing: border-box;
+            border: 3px solid #ffd600;
+        }
+    }
+}
+
+.car_info {
+    margin-bottom: 40px;
+    .delivery_car,
+    .etenht_car,
+    .tudey_car {
+        float: left;
+        font-size: 16px;
+        font-family: $regular;
+        color: #7b7b7b;
+        margin-right: 40px;
+        margin-left: 30px;
+        position: relative;
+        span {
+        font-family: $semibold;
+        color: #000;
+        }
+        &:after {
+            content: '';
+            width: 23px;
+            height: 15px;
+            display: block;
+            position: absolute;
+            top: 2px;
+            left: -35px;
+            transform: rotate(180deg);
+            background: url(../image/icon_ase.png);
+        }
+    }
+    .delivery_car {
+        margin-left: 30px;
+        position: relative;
+        &:after {
+            content: '';
+            width: 18px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            top: 2px;
+            left: -31px;
+            transform: rotate(180deg);
+            background: url(../image/star.png);
+        }
+    }
+}
+
+.right_block_car {
+    float: right;
+    width: 275px;
+    .lot_car {
+        font-family: $regular;
+        font-size: 16px;
+        color: #7b7b7b;
+    }
+    .text_buy {
+        margin: 10px 0 15px;
+        font-family: $bold;
+        font-size: 28px;
+        color: #000;
+    }
+    .text_hag {
+        margin-bottom: 20px;
+        font-family: $regular;
+        font-size: 16px;
+        color: #7b7b7b;
+    }
+    .text_rate {
+        color: #262626;
+        font-family: $regular;
+        font-size: 15px;
+        span {
+            font-family: $semibold;
+            color: #000;
+        }
+    }
+    .text_date {
+        padding: 5px 20px 20px 0px;
+        color: #262626;
+        font-family: $regular;
+        font-size: 15px;
+        span {
+            font-family: $italik;
+            color: #7b7b7b;
+        }
+        .slow {
+            font-size: 15px;
+            font-family: $italik;
+            color: #ff1800;
+        }
+    }
+    .btn_claim {
+        text-align: center;
+        transition: all 0.2s ease-out;
+        display: inline-block;
+        width: 100%;
+        height: 48px;
+        padding-top: 11px;
+        color: #000;
+        font-family: $regular;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: 3px solid #ffd600;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-bottom: 15px;
+        background: #ffd600;
+    }
+    li {
+        padding: 9px 0;
+        font-family: $italik;
+        font-size: 16px;
+        color: #000;
+        border-bottom: 1px solid #cfd8dd;
+        span {
+            float: right;
+            text-align: left;
+            display: inline-block;
+            width: 110px;
+            text-align: right;
+            font-size: 16px;
+            font-family: $regular;
+            color: #7b7b7b;
+        }
+    }
+}
+
+.har_car {
+    .car_favorit {
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: $regular;
+        color: #7b7b7b;
+        margin-right: 40px;
+        margin-bottom: 5px;
+        span {
+            text-decoration: underline;
+            font-family: $semibold;
+            color: #000;
+        }
+    }
+    .car_adres {
+        font-size: 16px;
+        font-family: $regular;
+        color: #7b7b7b;
+        margin-bottom: 15px;
+        margin-right: 40px;
+    }
+    .phone_car {
+        font-family: $semibold;
+        font-size: 18px;
+        color: #000;
+        a {
+            padding-left: 15px;
+            font-size: 16px;
+            color: #219ce3;
+            text-decoration: underline;
+        }
+    }
+}
+
+.main_descriptin_car {
+    float: left;
+    border-bottom: 2px solid $color;
+    margin-bottom: 20px;
+    .content_text {
+        p {
+            span {
+                font-weight: bold;
+                font-family: segoeuib;
+                font-style: italic;
+            }
+        }
+    }
+    &.parts_posts {
+        width: 100%;
+        border: none;
+    }
+    .title_description {
+        h4 {
+            margin: 20px 0 25px;
+            font-family: $light;
+            font-size: 28px;
+            color: #7b7b7b;
+        }
+    }
+    .top_text_car {
+        margin-bottom: 25px;
+        font-family: $semibold;
+        font-size: 20px;
+        color: #000;
+    }
+    p {
+        font-size: 16px;
+        font-family: $regular;
+        color: #7b7b7b;
+        margin-bottom: 15px;
+    }
+    .font_italik {
+        margin: -7px 0 5px;
+        font-family: $semibold;
+        font-size: 16px;
+        color: #000;
+        a {
+            padding-left: 15px;
+            font-size: 16px;
+            color: #219ce3;
+            text-decoration: underline;
+        }
+    }
+}
+
+h1 { margin: 0; padding: 0; }
+h2 { margin: 0; padding: 0; }
+h3 { margin: 0; padding: 0; }
+h4 { margin: 0; padding: 0; }
+a { text-decoration: none; }
+.other_car_men {
+    margin-bottom: 40px;
+    @extend .content_tab1;
+    .title_men {
+        h3 {
+            padding: 0px 0 20px 0px;
+            font-family: $light;
+            font-size: 28px;
+            color: #7b7b7b;
+        }
+    }
+}

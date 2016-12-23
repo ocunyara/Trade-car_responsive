@@ -1,0 +1,45 @@
+//    404
+
+.title_404 {
+    text-align: center;
+    h3 {
+        color: #000;
+        padding-top: 85px;
+        padding-bottom: 30px;
+        font-size: 40.9px;
+        font-family: $light;
+    }
+}
+
+.content_404 {
+    text-align: center;
+    img {
+        padding-top: 155px;
+        padding-bottom: 45px;
+    }
+    h4 {
+        color: #000;
+        font-size: 28px;
+        font-family: $bleck;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+    span {
+        font-family: $light;
+        font-size: 28px;
+        color: #000;
+        padding-bottom: 25px;
+        display: inline-block;
+    }
+    p {
+        font-family: $light;
+        font-size: 20px;
+        color: #000;
+        padding-bottom: 200px;
+        a {
+            font-family: $semibold;
+            text-decoration: underline;
+            color: #000;
+        }
+    }
+}

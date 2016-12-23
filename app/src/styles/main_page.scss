@@ -1,0 +1,385 @@
+
+.baner {
+    background: url(../image/baner_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_text {
+    padding-top: 122px;
+    padding-bottom: 67px;
+    text-align: center;
+    p {
+        font-family: $light;
+        font-size: 40.73px;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        margin: 16px 0 50px 2px;
+        font-family: segoeuib;
+        font-size: 71px;
+        color: #fff;
+    }
+    span {
+        font-size: 15.4px;
+        font-family: $regular;
+        color: #fff;
+        line-height: 26px;
+    }
+}
+
+.btn_auction {
+    text-align: center;
+    padding-bottom: 136px;
+    a {
+        transition: all 0.2s ease-out;
+        display: inline-block;
+        width: 241px;
+        height: 48px;
+        padding-top: 8px;
+        color: #fff;
+        font-family: $regular;
+        font-size: 18px;
+        box-sizing: border-box;
+        border: 3px solid #cfd8dc;
+        border-radius: 6px;
+        text-decoration: none;
+        &:hover,
+        &:active {
+            background: #cfd8dc;
+            color: #000;
+        }
+    }
+    .btn_first {
+        margin-right: 26px;
+        border: 3px solid #ffd600;
+        &:hover,
+        &:active {
+            background: #ffd600;
+            color: #000;
+        }
+    }
+}
+
+//  New_collections
+.new_collections {
+    background: #fff;
+}
+
+.collections_top {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 24px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #cfd8dc;
+    h2 {
+        float: left;
+        font-size: 40.4px;
+        font-family: $light;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.collections_tab {
+    float: right;
+    height: 44px;
+    width: 36.42%;
+    box-sizing: border-box;
+    border: 3px solid $color;
+    border-radius: 6px;
+    a {
+        transition: all 0.2s ease-out;
+        font-size: 18px;
+        color: #000;
+        font-family: $regular;
+        box-sizing: border-box;
+        display: inline-block;
+        text-decoration: none;
+        &:hover {
+            background: $color;
+        }
+    }
+    .btn_collections1 {
+        float: left;
+        width: 58%;
+        font-size: 19px;
+        padding: 4px 0px 10px 25px;
+    }
+    .btn_collections2 {
+        width: 42.001%;
+        padding: 4px 0px 10px 35px;
+        font-size: 19.4px;
+    }
+    .active {
+        background: $color;
+    }
+}
+
+.car_collections {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        width: 258px;
+        display: inline-block;
+        position: relative;
+        margin-right: 24px;
+        margin-bottom: 28px;
+        border: 0;
+        overflow: hidden;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.1);
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
+        img {
+            width: 100%;
+        }
+        > span {
+            font-size: 15.4px;
+            font-family: segoeui;
+            color: #fff;
+            position: absolute;
+            top: 17px;
+            left: 41px;
+            padding: 0px 10px 3px 10px;
+            background: rgba(207, 216, 220, 0.8);
+            border-radius: 13px;
+            &:after {
+                content: '';
+                width: 15px;
+                height: 21px;
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: -24px;
+                background: url(../image/icon_marker.png);
+            }
+        }
+        > a {
+            display: block;
+            font-family: $bolditalik;
+            font-size: 18.7px;
+            margin: 0px 20px -1px 20px;
+            color: #000;
+            text-decoration: underline;
+            &:hover {
+                color: #219ce3;
+            }
+        }
+        .block_text {
+            overflow: hidden;
+            margin: 19px 20px 0px 20px;
+            padding-bottom: 13px;
+            box-sizing: border-box;
+            border-bottom: 2px solid $color;
+            .text_buy {
+                float: left;
+                font-family: $regular;
+                font-size: 18px;
+                color: #000;
+            }
+            .text_hag {
+                float: right;
+                color: #7b7b7b;
+                font-size: 15px;
+                font-family: $regular;
+            }
+        }
+        .text_rate {
+            padding: 15px 20px 7px 20px;
+            color: #262626;
+            font-family: $regular;
+            font-size: 15px;
+            span {
+                font-family: $semibold;
+                color: #000;
+            }
+        }
+        .text_date {
+            padding: 0 20px 20px 20px;
+            color: #262626;
+            font-family: $regular;
+            font-size: 15px;
+            span {
+                font-family: $italik;
+                color: #7b7b7b;
+            }
+        }
+    }
+    .pagination {
+        text-align: center;
+        margin-bottom: 53px;
+        a {
+            margin-top: 5px;
+            color: #2c2b2b;
+            text-decoration: underline;
+            font-family: $regular;
+            font-size: 18px;
+            &:hover {
+                color: #219ce3;
+            }
+        }
+    }
+}
+
+//    Bid
+.bid {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../image/bid_bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.bid_block {
+    float: left;
+    text-align: center;
+    width: 50%;
+    h3 {
+        line-height: 40px;
+        color: #a3becc;
+        padding-top: 65px;
+        padding-bottom: 28px;
+        font-size: 34px;
+        font-family: $light;
+        span {
+            font-family: $bold;
+        }
+    }
+    p {
+        line-height: 26px;
+        font-family: $regular;
+        font-size: 15.3px;
+        color: #fff;
+    }
+    a {
+        padding-top: 4px;
+        font-family: segoeui;
+        font-size: 18px;
+        color: #000;
+        height: 30px;
+        width: 238px;
+        display: inline-block;
+        margin: 33px 0 64px 0;
+        border-radius: 6px;
+        transition: all 0.2s ease-out;
+        text-decoration: none;
+    }
+    .btn_bid1 {
+        background: #cfd8dc;
+        border: 3px solid #cfd8dc;
+        &:hover {
+            background: none;
+        }
+    }
+    .btn_bid2 {
+        background: #fdd60b;
+        border: 3px solid #fdd60b;
+        &:hover {
+            background: none;
+        }
+    }
+}
+
+.bid_block2 h3,
+.bid_block2 span,
+.bid_block2 p {
+    color: #000;
+}
+.bid2 { display: none; }
+
+//    Work
+.work {
+    overflow: hidden;
+    padding-bottom: 63px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        text-align: center;
+        width: 250px;
+        display: block;
+        float: left;
+        margin-right: 40px;
+        position: relative;
+        &:after {
+            content: '';
+            width: 103px;
+            height: 19px;
+            display: block;
+            position: absolute;
+            top: 65px;
+            right: -75px;
+            background: url(../image/arrow.png);
+        }
+        &:last-child {
+            margin-right: 0px;
+            &:after {
+                display: none;
+            }
+        }
+        p {
+            line-height: 23px;
+            font-family: $regular;
+            font-size: 15px;
+            color: #000;
+        }
+    }
+}
+
+.title_work {
+    text-align: center;
+    h3 {
+        color: #000;
+        padding-top: 60px;
+        padding-bottom: 73px;
+        font-size: 40.9px;
+        font-family: $light;
+        margin: 0;
+    }
+}
+
+//    Partner
+.partner {
+    background: #fff;
+    @extend .title_work;
+    .partner {
+        padding: 55px 0 80px 0;
+    }
+    p {
+        margin-top: 9px;
+        margin-bottom: 35px;
+        line-height: 26px;
+        font-family: segoeui;
+        font-size: 15.2px;
+    }
+    .btn_information {
+        padding-top: 6px;
+        font-family: $regular;
+        font-size: 18px;
+        color: #000;
+        height: 44px;
+        width: 290px;
+        display: inline-block;
+        border-radius: 6px;
+        transition: all 0.2s ease-out;
+        box-sizing: border-box;
+        border: 3px solid $color;
+        margin-bottom: 65px;
+        text-decoration: none;
+        &:hover {
+            background: $color;
+        }
+    }
+}

@@ -1,0 +1,1072 @@
+    @media screen and (max-width: 1120px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .logo {
+        margin: 26px 25px 19px 0;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    nav {
+        margin-right: 15px;
+    }
+    .registration a {
+        font-size: 14px;
+    }
+    .btn_buy {
+        padding: 10px 18px 11px 45px;
+        background-position: 13px 11px;
+    }
+    .collections_tab .btn_collections1,
+    .collections_tab .btn_collections2 {
+        font-size: 16px;
+        padding-top: 9px;
+    }
+    .car_collections {
+        ul {
+            margin: 0 auto;
+            width: 833px;
+        }
+        li {
+            &:nth-child(4n) {
+                margin-right: 24px;
+            }
+            &:nth-child(3n) {
+                margin-right: 0px;
+            }
+        }
+    }
+    .work {
+        ul {
+            margin: 0 auto;
+            width: 545px;
+        }
+        li {
+            &:nth-child(2n) {
+                margin-right: 0;
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+    footer .list2 {}
+    footer a {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    //  Car_action
+    .slider-for,
+    .slider-nav {
+        width: 100%;
+    }
+    .slider_car {
+        width: 460px;
+    }
+    .right_slider_car {
+        overflow: hidden;
+        width: 255px;
+        img {
+            width: 100%;
+        }
+    }
+    .right_block_car {
+        width: 220px;
+    }
+    .car_info .delivery_car,
+    .car_info .etenht_car,
+    .car_info .tudey_car {
+        margin-right: 15px;
+    }
+    .right_block_car li span {
+        width: auto;
+    }
+    .labew { left: 555px; }
+    .right_slider, .parts_sidebar {
+    	width: 280px;
+	}
+    .right_slider form {
+    	padding: 23px 10px 25px 10px;
+    }
+    .car_tile {
+    	width: 69%;
+	}
+	.pagination li {
+		width: 25px;
+    	height: 25px;
+		a {
+			font-size: 15px;
+			line-height: 23px;
+		}
+	}
+	.pagination li:last-child:after,
+	.pagination li:first-child:after { top: 8px; }
+	.content_tab1 .btn_claim, .right_slider_car .btn_claim, .content_tab2 .btn_claim, .content_tab3 .btn_claim, .other_car_men .btn_claim {
+	    width: 165px;
+	    height: 40px;
+	}
+	.content_tab3 li .car_sescription {
+		font-size: 13px;
+	}
+	.top_link li .active {
+	    font-size: 14px;
+	}
+
+}	
+
+@media screen and (max-width: 992px) {
+
+    .logo {
+        margin: 21px 25px 16px 70px;
+    }
+    .menu {
+        position: relative;
+        top: 20px;
+        left: -295px;
+        width: 46px;
+        float: left;
+    }
+    .car_collections {
+        ul {
+            margin: 0 auto;
+            width: 750px;
+        }
+        li {
+            width: 245px;
+            margin-right: 2px;
+            &:nth-child(4n) {
+                margin-right: 2px;
+            }
+            &:nth-child(3n) {
+                margin-right: 0px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .main_text {
+        padding-top: 55px;
+        padding-bottom: 40px;
+        h1 {
+            font-size: 65px;
+            margin: 15px 0 35px 2px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+    .btn_auction {
+        padding-bottom: 55px;
+    }
+    .collections_top h2,
+    .car_top_btn h2 {
+        float: left;
+        font-size: 33px;
+    }
+    .collections_tab {
+        width: 45%;
+        .btn_collections1 {
+            padding-left: 12px;
+        }
+    }
+    .partner p {
+        line-height: 21px;
+        font-size: 12px;
+    }
+    .title_work h3,
+    .partner h3 {
+        padding-top: 45px;
+        padding-bottom: 25px;
+        font-size: 33px;
+    }
+    footer {}
+    footer ul {
+        width: 190px;
+        margin-left: 10px;
+        float: left;
+    }
+    body footer {
+        .list2 {
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+    }
+    .footer_title {
+        float: right;
+        top: -215px;
+        margin-right: 0;
+        h4 {
+            font-size: 29px;
+        }
+        p {
+            font-size: 13px;
+        }
+        .pravo {
+            width: 282px;
+            font-size: 13px;
+            left: -71px;
+        }
+    }
+    nav ul li:after {
+        display: none;
+    }
+    nav {
+        top: 67px;
+        a {
+            line-height: 30px;
+        }
+    }
+    //  Car_action
+    .action_car {
+        width: 92%;
+        margin: 0 auto;
+        float: none;
+    }
+    .slider-for,
+    .slider-nav {
+        width: 100%;
+    }
+    .slider_car {
+        width: 500px;
+    }
+    .right_slider_car {
+        display: none;
+    }
+    .right_block_car {
+        width: 30%;
+    }
+    .har_car {
+        float: left;
+    }
+    .car_info .delivery_car,
+    .car_info .etenht_car,
+    .car_info .tudey_car {
+        margin-right: 15px;
+    }
+    .right_block_car li span {
+        width: auto;
+    }
+    .block_buy {
+        float: right;
+        margin-left: 15px;
+    }
+    .footer_media {
+        margin: 0;
+    }
+    .footer_menu {
+        width: 400px;
+    }
+    .catalog_car .name_car {
+      font-size: 26px;
+      padding: 15px 0;
+    }
+    .car_info .delivery_car {
+      font-size: 14px;
+    }
+    .slider_car {
+      width: 455px;
+    }
+    .right_block_car .text_buy {
+      margin: 7px 0 10px;
+      font-size: 25px;
+    }
+    .other_car_men li {
+      width: 215px;
+      display: inline-table;
+      margin-right: 10px;
+    }
+    .other_car_men  .btn_claim {
+      width: 175px;
+    }
+    .content_tab1 li > a, .right_slider_car li > a, .content_tab2 li > a, .content_tab3 li > a, .other_car_men li > a {
+      font-size: 16px;
+    }
+    .content_tab1 li .text_info, .right_slider_car li .text_info, .content_tab2 li .text_info, .content_tab3 li .text_info, .other_car_men li .text_info {
+      font-size: 13px;
+    }
+    .content_tab1 li .text_date, .right_slider_car li .text_date, .content_tab2 li .text_date, .content_tab3 li .text_date, .other_car_men li .text_date {
+      font-size: 13px;
+    }
+    .content_tab1 li .block_text .text_buy, .right_slider_car li .block_text .text_buy, .content_tab2 li .block_text .text_buy, .content_tab3 li .block_text .text_buy, .other_car_men li .block_text .text_buy {
+      font-size: 16px;
+
+    }
+    .content_tab1 li > span, .right_slider_car li > span, .content_tab2 li > span, .content_tab3 li > span, .other_car_men li > span {
+      top: -150px;
+    }
+    .top_link li { margin: 20px 20px 20px ; }
+    .collections_tab .btn_collections1, .collections_tab .btn_collections2 {
+    	font-size: 13px;
+	}
+	.collections_tab .btn_collections2 {
+	    width: 37%;
+	    padding: 10px 0px 11px 11px
+	}
+	.collections_tab .btn_collections1 { 
+		    width: 63%;
+	    padding: 10px 0px 13px 15px;
+	}
+	.right_slider, .parts_sidebar, .parts_sidebar {
+    	width: 230px;
+	}
+	.right_slider form, .parts_sidebar form {
+    	padding: 5px 5px 15px 5px;
+	}
+	.small {
+    	margin-right: 5px;
+	}
+	.small_select {
+    	width: 105px;
+	}
+	.section_p {
+	    width: 95px;
+	}
+	.content_tab2 li img, .content_tab3 li img {
+	    float: left;
+	    width: 210px;
+	    margin-right: 10px;
+	}
+	.content_tab1 li .block_text, .right_slider_car li .block_text, .content_tab2 li .block_text, .content_tab3 li .block_text, .other_car_men li .block_text {
+	    margin: 5px 0px 0px 0px;
+	    padding: 0;
+	    border: none;
+	}
+	.content_tab3 li .width { display: none; }
+
+	.content_tab1 li .text_info, .right_slider_car li .text_info, .content_tab2 li .text_info, .content_tab3 li .text_info, .other_car_men li .text_info, .right_slider_car li .text_info, .content_tab2 li .text_info, .content_tab3 li .text_info, .content_tab3 li .text_info, .other_car_men li .text_info { display: none; }
+	.select_text .btn_dop {
+		font-size: 13px;
+	}	
+	.select_text .btn_reset {
+	    font-size: 13px;
+	}
+	.title_number h3 {
+	    font-size: 20px;
+	}
+	.labew {
+	    left: 397px;
+	    top: -107px;
+	}
+	.car_tile {
+	    padding-right: 5px;
+	    box-sizing: border-box;
+	}
+	.content_tab2 li .width, .content_tab3 li .width {
+	    margin-top: 0px;
+	    float: right;
+	    margin-right: 5px;
+	}
+	.pag_off { display: none !important; }
+	.content_tab2 .btn_claim {
+		padding: 5px;
+		margin: 0;
+		float: left;
+    	margin-top: 8px;
+	}
+	.content_tab1 li .text_rate, .right_slider_car li .text_rate, .content_tab2 li .text_rate, .content_tab3 li .text_rate, .other_car_men li .text_rate {
+    	padding: 0px 20px 7px 20px;
+	}
+	.content_tab2 li .text_date {
+		padding: 0;
+	}
+	.tabs .content_tab0 li {
+		width: 47%;
+	}
+	.content_tab1 li > span, .right_slider_car li > span, .content_tab2 li > span, .content_tab3 li > span, .other_car_men li > span {
+		position: absolute;
+		top: 15px;
+	}
+	.content_tab1 li:nth-child(3n), .right_slider_car li:nth-child(3n), .content_tab2 li:nth-child(3n), .content_tab3 li:nth-child(3n), .other_car_men li:nth-child(3n) {
+		margin-right: 10px;
+	}
+	.content_tab2 .action:after, .content_tab3 .action:after {
+    	left: 180px !important;
+	}
+	.bgt_application { 
+		width: 230px;
+		font-size: 14px;
+		padding-top: 8px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    .registration,
+    .block_rating {
+        display: none;
+    }
+    .registration2 {
+        display: block;
+        float: left;
+        margin-top: 0px;
+        width: 200px;
+        .btn_out {
+            float: left;
+        }
+        &:after {
+            top: 8px;
+            left: 47px;
+        }
+    }
+    .btn_buy {
+        float: right;
+    }
+    .partner_text {
+        img {
+            width: 100%;
+        }
+    }
+    .car_collections ul {
+        width: 100%;
+    }
+    .car_collections {
+        ul {
+            margin: 0 auto;
+            width: 498px;
+        }
+        li {
+            width: 245px;
+            margin-right: 1px;
+            &:nth-child(4n) {
+                margin-right: 1px;
+            }
+            &:nth-child(3n) {
+                margin-right: 0px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .collections_top h2,
+    .car_top_btn h2,
+    .car_top_btn h2 {
+        font-size: 23px;
+    }
+    .collections_top,
+    .car_top_btn {
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .collections_tab {
+        width: 375px;
+        .btn_collections1,
+        .btn_collections2 {
+            font-size: 15px;
+            padding-top: 9px;
+        }
+    }
+    .bid_block h3 {
+        line-height: 23px;
+        color: #a3becc;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        font-size: 22px;
+    }
+    .bid_block p {
+        line-height: 17px;
+    }
+    .car_collections .pagination {
+        margin: -5px 0 25px 0;
+    }
+    .bid_block a {
+        margin-bottom: 25px;
+    }
+    .work li {
+        margin-right: 18px;
+    }
+    footer {
+        height: auto;
+        .footer_menu {
+            margin: 0 auto;
+        }
+    }
+    .footer_block {
+        float: left;
+    }
+    .footer_title {
+        width: 300px;
+        top: 0;
+        float: left;
+        .pravo {
+            bottom: 0;
+            margin-top: 2px;
+            left: 2px !important;
+            margin-bottom: -35px !important;
+        }
+    }
+    nav {
+        top: 67px;
+        a {
+            line-height: 30px;
+        }
+    }
+    nav ul li:after {
+        display: none;
+    }
+    nav {
+        top: 67px;
+        a {
+            line-height: 30px;
+        }
+    }
+    .block_buy {
+        margin-left: 0;
+    }
+    .top_link li {
+      margin: 20px 20px 20px;
+      a { font-size: 14px; }
+      .active { font-size: 14px; }
+    }
+    .etenht_car { display: none; }
+    .right_block_car {
+      width: 100%;
+    }
+
+    .catalog_car {
+      width: 100%;
+    }
+    .collections_top, .car_top_btn, .car_top_btn {
+    	display: none;
+    }
+    .car_tile { width: 100%; }
+    .right_slider, .parts_sidebar, .parts_sidebar, .parts_sidebar {
+    	width: 100%;
+	}
+	.title_param, .title_parts {
+	    margin: 10px 0 10px 20px;
+	    font-family: segoeuil;
+	    font-size: 23px;
+	}
+	.pagination {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+	.small_select {
+    	width: 49%;
+	}
+	.section_p {
+    	width: 47%;
+	}
+	.right_slider form, .parts_sidebar form, .parts_sidebar form {
+    	padding: 15px 15px 15px 15px;
+	}
+    .form_registration {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .registration2 {
+        display: block;
+        float: left;
+        width: 200px;
+        .btn_out {
+            float: left;
+        }
+        &:after {
+            top: 8px;
+            left: 47px;
+        }
+    }
+    .logo {
+        margin: 28px 0px 22px 50px;
+        width: 37%;
+        img {
+            width: 100%;
+        }
+    }
+    .menu {
+        position: absolute;
+        top: 27px;
+        left: 15px;
+        width: 32px;
+        li {
+            width: 32px;
+            height: 6px;
+        }
+    }
+    .work ul {
+        margin: 0 auto;
+        width: 250px;
+    }
+    .work li {
+        margin-bottom: 70px;
+        &:after {
+            transform: rotate(90deg);
+            width: 65px;
+            height: 19px;
+            top: -37px;
+            right: 98px;
+            -webkit-background-size: 100%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        &:nth-child(2n) {
+            margin-right: 0;
+            &:after {
+                display: block;
+            }
+        }
+        &:first-child {
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .btn_buy {
+        position: absolute;
+        margin-top: -20px;
+        top: 35px;
+        right: 7px;
+        padding: 9px 16px 10px 45px;
+        background-position: 14px 7px;
+        ;
+    }
+    .main_text p {
+        margin: 0;
+        padding: 0;
+        font-size: 26px;
+    }
+    .registration,
+    .block_rating {
+        display: none;
+    }
+    .btn_buy {
+        margin-top: -20px;
+        float: right;
+    }
+    .partner_text {
+        img {
+            width: 100%;
+        }
+    }
+    .car_collections ul {
+        width: 100%;
+    }
+    .car_collections {
+        ul {
+            margin: 0 auto;
+            width: 100%;
+        }
+        li {
+            margin: 15px auto;
+            width: 100%;
+            display: block;
+            float: none;
+            &:nth-child(4n) {
+                margin-right: auto;
+            }
+            &:nth-child(3n) {
+                margin-right: auto;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .collections_top h2,
+    .car_top_btn h2,
+    .car_top_btn h2 {
+        font-size: 23px;
+    }
+    .collections_top,
+    .car_top_btn {
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .collections_tab {
+        width: 52%;
+    }
+    .bid_block h3 {
+        line-height: 23px;
+        color: #a3becc;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        font-size: 22px;
+    }
+    .bid_block p {
+        line-height: 17px;
+    }
+    .car_collections .pagination {
+        margin: -5px 0 25px 0;
+    }
+    .bid_block a {
+        margin-bottom: 25px;
+    }
+    .work li {
+        margin-right: 18px;
+    }
+    footer {
+        ul,
+        .list2 {
+            margin-left: 0px;
+        }
+    }
+    .footer_menu {
+        display: none;
+    }
+    .footer_title {
+        top: 20px;
+        width: auto;
+        position: absolute;
+        img {
+            margin-top: 15px;
+        }
+        .pravo {
+            left: 0px;
+            font-size: 13px;
+        }
+        h4 {
+            display: none;
+        }
+    }
+    nav {
+        top: 67px;
+        a {
+            line-height: 30px;
+        }
+    }
+    nav ul li:after {
+        display: none;
+    }
+    .main_text h1 {
+        font-size: 52px;
+        margin: 14px 0 30px 0px;
+    }
+    .main_text span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .btn_auction .btn_first {
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .btn_auction {
+        padding-bottom: 40px;
+    }
+    .collections_top h2 {
+        text-align: center;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .collections_tab {
+        width: 100%;
+    }
+    .collections_tab .btn_collections1,
+    .collections_tab .btn_collections2 {
+        font-size: 15px;
+        padding-top: 9px;
+    }
+    .bid {
+        background: url(../image/low_bg.png);
+        background-repeat: no-repeat;
+    }
+    .bid_block {
+        width: 100%;
+    }
+    .title_work h3 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 29px;
+    }
+    .registration2 {
+        display: block;
+        float: left;
+        margin-top: 0px;
+        width: 200px;
+        .btn_out {
+            float: left;
+        }
+        &:after {
+            top: 8px;
+            left: 47px;
+        }
+    }
+    .content_404 {
+        img {
+            width: 100%;
+        }
+    }
+    .bid_block2 {
+        display: none;
+    }
+    .bid2 {
+      background: url(../image/bid_bg2.jpg);
+      display: block;
+      .bid_block2 {
+        display: block;
+      }
+    }
+    .wrapp_slider {
+        display: block;
+        .slick-slide {
+          text-align: center;
+          img { display: inline-block; }
+        }
+        .slick-dots { position: inherit; width: 176px; }
+        .slick-dots li { margin: 0 12px; }
+        .slick-dots li button:before {
+            width: 29px;
+            height: 29px;
+            background: #cfd8dc;
+            content: '';
+            display: block;
+            margin: 0;
+            padding: 0;
+            opacity: 1;
+            border-radius: 50%;
+        }
+        .slick-dots li.slick-active button:before {
+            opacity: 1;
+            background: #434343;
+        }
+        li:after { display: none !important; }
+    }
+    .slider_off {
+        display: none;
+    }
+    .title_work h3 { font-size: 23px; }
+    .footer_block { display: none; }
+    .footer_mobi { display: block; }
+    .partner p { display: none; }
+    .partner .btn_information { margin: 15px 0 30px; }
+    .slider_car {
+      width: 100%;
+    }
+    .top_link,
+    .name_car { display: none; }
+    .content_tab1 li, .right_slider_car li, .content_tab2 li, .content_tab3 li, .other_car_men li {
+      width: 100%;
+    }
+    .action_car {
+    	width: 100%;
+    }
+    body .slick-prev,
+    body .slick-next,
+    .slick-dots {
+		display: none !important;
+    }
+    .slider-for { height: auto; }
+    .slick-dotted.slick-slider { margin-bottom: 7px; }
+    .content_tab1 li > span, .right_slider_car li > span, .content_tab2 li > span, .content_tab3 li > span, .other_car_men li > span, .right_slider_car li > span, .content_tab2 li > span, .content_tab3 li > span, .content_tab3 li > span, .other_car_men li > span {
+    	position: absolute;
+    	top: 15px;
+    }
+    .text_wrap {
+    	display: none;
+    }
+	.main_descriptin_car .readall {
+		display: block;
+	}
+	.lot_car { display: none; }
+	.right_block_car .text_date {
+		text-align: center;
+		background: #e5ffd0;
+		margin: 5px 0;
+		padding: 9px 20px 9px 0px;
+		.slow {
+			margin-left: 40px;
+			font-family: $bold;
+			color: #00b211;
+			position: relative;
+			border-radius: 3px;
+			&:after {
+				content: '';
+				display: block;
+				width: 25px;
+				height: 25px;
+				background: url(../image/clock.png);
+				position: absolute;
+				left: -32px;
+    			top: -2px;
+			}
+		}
+	}
+	.hidtory {
+	    display: block;
+	    float: right;
+	    width: 180px;
+	    display: block;
+	    box-sizing: border-box;
+	    border-radius: 6px;
+	    border: 3px solid #219ce3;
+	    color: #219ce3;
+	    text-decoration: underline;
+	    font-size: 18px;
+	    padding: 2px 0 5px 88px;
+		font-family: $regular;
+		position: relative;
+		cursor: pointer;
+		&:after {
+			content: '';
+		    display: block;
+		    width: 46px;
+		    height: 46px;
+		    background: url(../image/clock2.png);
+		    position: absolute;
+		    left: 17px;
+		    top: 3px;
+		}
+		span {
+		    position: absolute;
+		    font-family: segoeuib;
+		    font-size: 14px;
+		    color: #fff;
+		    padding: 3px 4px;
+		    top: 3px;
+		    left: 9px;
+		    background: #219ce3;
+		    z-index: 100;
+		}
+	}
+	.right_block_car .text_hag {
+    	margin-bottom: 8px;
+	}
+	.tudey_car,
+	.delivery_car { display: none; } 
+    .tudey_car2 {
+        float: left;
+        font-size: 16px;
+        font-family: $regular;
+        color: #7b7b7b;
+        margin-right: 40px;
+        margin-left: 30px;
+        position: relative;
+        display: block;
+        span {
+        font-family: $semibold;
+        color: #000;
+        }
+        &:after {
+            content: '';
+            width: 22px;
+            height: 15px;
+            display: block;
+            position: absolute;
+            top: 2px;
+            left: -35px;
+            transform: rotate(180deg);
+            background: url(../image/icon_ase.png);
+        }
+    }
+    .delivery_car2 {
+        margin: 0 30px;
+        position: relative;
+        display: block;
+        float: left;
+        color: #7b7b7b;
+        &:after {
+            content: '';
+            width: 18px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            top: 2px;
+            left: -31px;
+            transform: rotate(180deg);
+            background: url(../image/star.png);
+        }
+    }
+    .car_info {
+    	padding-top: 20px;
+    }
+    .tabs .content_tab0 li, .tabs2 .content_tab0 li { width: 100%; }
+    .car_filter { margin-top: 20px; }
+    .car_filter .filter_select { width: 30%; }
+    .labew {
+    left: 237px;
+    top: -43px;
+}
+    .title_number h3 { font-size: 16px; }
+    .tabs label, .tabs2 label {
+		margin-left: 0;
+     }
+     .small_select {
+        width: 48%;
+    }
+    .tabs label, .tabs2 label { display: none;}
+    .car_filter .filter_select {
+        width: 45%;
+    }
+    .form_enter {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .form_enter .btn_forget {
+        font-size: 14px;
+    }
+    .form_registration {
+        width: 100%;
+    }
+    #form1,
+    #form2 { width: 100%; box-sizing: border-box; }
+    .tabs_form > label { font-size: 20px; }
+    .label1 { margin: 0 35px 0 60px; }
+    .tabs_form .input_phone {
+        float: left;
+        width: 45%;
+    }   
+    body .tabs_form .submit_true {
+        float: right;
+        width: 140px;
+    }
+    .action_car.parts .left_block {
+    	width: 100%;
+    }
+    .action_car.parts .other_car_men li { width: 100%;}
+    .action_car ul.tyres_post .for_img {margin: 0 auto;}
+	.favorite_label {
+	    display: none;
+	}
+	.tabs2 .list_parts_text li a {
+    	font-size: 14px;
+	}
+	.tabs2 .list_parts_text li .text_sity  { font-size: 13px; }
+	.tabs2 .list_parts_text.tyres li .third_part .text_date { display: none !important; }
+	.tabs2 .list_parts_text.tyres li .first_part .status_label { font-size: 14px; }
+	.tabs2 .list_parts_text.tyres li .third_part .text_buy { font-size: 14px; }
+	.tabs2 .list_parts_text li {
+    	padding: 15px 15px 15px 15px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+    nav {
+        width: 94%;
+        display: none;
+        position: absolute;
+        background: #fff
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        display: block!important;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    nav ul li {
+        display: block;
+        margin: .6em .8em!important;
+        border-bottom: 1px solid #ccc
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    nav ul li:last-child {
+        border: none
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu {
+        display: block;
+        width: 46px;
+    }
+}

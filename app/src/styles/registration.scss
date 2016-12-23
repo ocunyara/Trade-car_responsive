@@ -1,0 +1,308 @@
+// Registration
+
+.registration_cotent {
+    h1 {
+        text-align: center;
+        font-family: $light;
+        font-size: 40px;
+        color: #000;
+        padding: 75px 0 30px 0;
+        margin: 0;
+        border-bottom: 2px solid #cfd8dc;
+    }
+}
+.form_enter {
+    margin: 50px auto 200px;
+    width: 395px;
+    input {
+        width: 100%;
+        height: 48px;
+        box-sizing: border-box;
+        border: 1px solid #d2dadf;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    input[type="text"] {
+        padding: 0 20px;
+        font-family: $italik;
+        font-size: 16px;
+        color: #7b7b7b;
+        &:focus {
+            outline: 0;
+            border: 2px solid #d2dadf;
+        }
+    }
+    input[type="submit"] {
+        background: #ffd600;
+        font-family: $regular;
+        font-size: 18px;
+        color: #000;
+        border: 0;
+    }
+    .btn_forget {
+        float: right;
+        margin-bottom: 15px;
+        font-family: $semibold;
+        font-size: 18px;
+        color: #000;
+        text-decoration: underline;
+    }
+    .jq-checkbox {
+        float: left;
+        width: 18px;
+        height: 18px;
+        margin-top: 4px;
+        box-sizing: border-box;
+        border-radius: 0;
+        border: 2px solid #cfd8dd;
+        box-shadow: none;
+        background: none;
+        &:focus { outline: none; }
+    }
+    .jq-checkbox.focused {
+        border: 2px solid #cfd8dd;
+    }
+    label {
+        margin-left: 10px;
+        font-family: $regular;
+        font-size: 16px;
+        color: #000;
+    }
+    .jq-checkbox.checked .jq-checkbox__div {
+        background: none;
+        box-shadow: none;
+        background-image: url(../image/check.png);
+        background-repeat: no-repeat;
+        background-position: 1px 2px;
+    }
+    p {
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        font-family: $regular;
+        font-size: 16px;
+        color: #000; 
+        border-top: 2px solid #2c3b42;
+    }
+    ul {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 144px; 
+    }
+    li {
+        margin: 0 5px;
+        float: left;
+        a {
+            display: block;
+            width: 38px;
+            height: 38px;
+            background: url(../image/social.png);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+        }
+        .icon2 { background-position: -41px 0; }
+        .icon3 { background-position: -82px 0; }
+    }
+    .btn_make {
+        margin-top: 20px;
+        text-align: center;
+        font-family: $regular;
+        font-size: 16px;
+        color: #000; 
+        text-decoration: underline;
+        display: block;
+    }
+}
+.form_registration {
+    margin: 0 auto;
+    width: 545px;
+}
+.tabs_form {
+    padding: 0px;
+    display: table;
+    margin: 50px auto 100px;
+    p {
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: $regular;
+        color: #000;
+    }
+}
+.tabs_form>section {
+    display: none;
+    padding: 15px;
+}
+.tabs_form>section>p {
+    margin: 0 0 5px;
+}
+
+.tabs_form>input {
+    display: none;
+    position: absolute;
+}
+.tabs_form>label {
+    display: inline-block;
+    text-align: center;
+    font-family: $bold;
+    font-size: 28px;
+    color: #000;
+}
+.label1 {
+    margin: 0 35px 0 90px;
+}
+
+ 
+.tabs_form>label:hover {
+    color: #888;
+    cursor: pointer;
+}
+.tabs_form>input:checked+label {
+    color: #7b7b7b;
+    font-family: $light;
+    border-bottom: 1px dashed #7b7b7b;
+
+}
+
+#tab1_form:checked~#form1,
+#tab2_form:checked~#form2 {
+    display: block;
+}
+.tabs_form {
+    section {
+        width: 395px;
+        margin: 0 auto;
+    }
+    input {
+        width: 100%;
+        height: 48px;
+        box-sizing: border-box;
+        border: 1px solid #d2dadf;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    input[type="text"],
+    input[type="mail"],
+    input[type="password"] {
+        padding: 0 20px;
+        font-family: $italik;
+        font-size: 16px;
+        color: #7b7b7b;
+        &:focus {
+            outline: 0;
+            border: 2px solid #d2dadf;
+        }
+    }
+    input[type="submit"] {
+        background: #ffd600;
+        font-family: $regular;
+        font-size: 18px;
+        color: #000;
+        border: 0;
+    }
+    input[type="checked"] {
+        float: right;
+        margin-bottom: 15px;
+        font-family: $semibold;
+        font-size: 18px;
+        color: #000;
+        text-decoration: underline;
+    }
+    .label_check {
+        font-family: $regular;
+        font-size: 16px;
+        color: #000;
+        padding-bottom: 17px;
+        display: inline-block;
+        a {
+            text-decoration: underline;
+            font-family: $semibold;
+            font-size: 16px;
+            color: #000;
+            &:hover { text-decoration: none; }
+         }
+    }
+    .input_phone {
+        float: left;
+        width: 205px;
+    }
+
+    .btn_forget {
+        float: right;
+        margin-bottom: 15px;
+        font-family: $semibold;
+        font-size: 18px;
+        color: #000;
+        text-decoration: underline;
+    }
+    .jq-checkbox {
+        float: left;
+        width: 18px;
+        height: 18px;
+        margin-top: 4px;
+        box-sizing: border-box;
+        border-radius: 0;
+        border: 2px solid #cfd8dd;
+        box-shadow: none;
+        background: none;
+        &:focus { outline: none; }
+    }
+    .jq-checkbox.focused {
+        border: 2px solid #cfd8dd;
+    }
+        .jq-checkbox.checked .jq-checkbox__div {
+        background: none;
+        box-shadow: none;
+        background-image: url(../image/check.png);
+        background-repeat: no-repeat;
+        background-position: 1px 2px;
+    }
+}
+body .tabs_form .submit_true {
+    background: #cfd8dd;
+    float: right;
+    width: 180px;
+}
+.social_block {
+        transition: center;
+    p {
+        text-align: center;
+        text-align: -webkit-center;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        font-family: $regular;
+        font-size: 16px;
+        color: #000; 
+        border-top: 2px solid #2c3b42;
+    }
+    ul {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 144px; 
+    }
+    li {
+        margin: 0 5px;
+        float: left;
+        a {
+            display: block;
+            width: 38px;
+            height: 38px;
+            background: url(../image/social.png);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+        }
+        .icon2 { background-position: -41px 0; }
+        .icon3 { background-position: -82px 0; }
+    }
+    .btn_make {
+        margin-top: 20px;
+        text-align: center;
+        font-family: $regular;
+        font-size: 16px;
+        color: #000; 
+        text-decoration: underline;
+        display: block;
+    }
+}

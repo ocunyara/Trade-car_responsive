@@ -1,0 +1,141 @@
+//    Header
+
+header {
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 7px 19px -8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    margin: 26px 70px 19px 0;
+    float: left;
+}
+
+.menu {
+    display: none;
+    width: 50px;
+    height: 34px;
+    &:hover {
+        cursor: pointer
+    }
+    ul { 
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        width: 42px;
+        height: 7px;
+        background: #000;
+        margin-bottom: 3px;
+    }
+}
+
+nav {
+    float: left;
+    margin-right: 30px;
+    z-index: 111;
+    ul { 
+        margin: 0;
+        padding: 0;
+    }
+}
+.registration2 {
+    display: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 34px;
+    position: relative;
+    &:after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 15px;
+        position: absolute;
+        top: 30px;
+        right: -23px;
+        background: #cfd8dc;
+    }
+    &:last-child {
+        margin-right: 0;
+        &:after {
+            display: none;
+        }
+    }
+}
+
+nav a {
+    line-height: 73px;
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-family: $regular;
+    text-decoration: none;
+}
+
+.menu,
+.menu li {
+    transition: all 0.2s ease-out
+}
+
+.block_rating {
+    float: left;
+    width: 37px;
+    margin-top: 28px;
+    margin-right: 22px;
+    background: url(../image/icon_rating.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    span {
+        float: right;
+        font-family: $semibold;
+        font-size: 18px;
+        color: #000;
+    }
+}
+
+.btn_buy {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 11px 26px 11px 61px;
+    font-family: $regular;
+    font-size: 18px;
+    color: #fff;
+    background: #00c853;
+    background-image: url(../image/icon_buy.png);
+    background-repeat: no-repeat;
+    background-position: 25px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.block_buy { float: left;}
+
+.registration {
+    margin-top: 28px;
+    float: right;
+    position: relative;
+    a {
+        transition: all 0.2s ease-out;
+        font-family: $italik;
+        font-size: 15px;
+        color: #7b7b7b;
+    }
+    .btn_out {
+        margin-right: 31px;
+        font-family: $bolditalik;
+        color: #000;
+        text-decoration: underline;
+    }
+    &:after {
+        content: '/';
+        display: block;
+        font-family: $regular;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+}
